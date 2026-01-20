@@ -4,7 +4,7 @@ import base64
 import os
 import tempfile
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets[API_KEY])
 
 
 st.title("Animal Chatbot")
