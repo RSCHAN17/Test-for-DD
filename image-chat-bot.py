@@ -4,7 +4,7 @@ import base64
 import os
 import tempfile
 
-client = OpenAI(api_key=st.secrets[API_KEY])
+client = OpenAI(api_key=st.secrets["API_KEY"])
 
 
 st.title("Animal Chatbot")
