@@ -1,0 +1,5 @@
+openai
+streamlit
+base64
+os
+tempfile
