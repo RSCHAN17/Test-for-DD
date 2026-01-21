@@ -4,12 +4,15 @@ import base64
 import os
 import tempfile
 
-client = OpenAI(api_key=st.secrets[API_KEY])
+
+
+
+client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 
 
 st.title("Animal Chatbot")
 uploaded_file = st.file_uploader(
-    "Upload image", type=["jpg", "png"])
+    "Upload image", type=["jpg", "png","HEIC"])
 if uploaded_file:
     temp_dir = tempfile.mkdtemp()
     path = os.path.join(temp_dir, uploaded_file.name)
@@ -32,7 +35,7 @@ if uploaded_file:
 
     prompt = f"""
     Task:
-    Using the animals in {animal_information} determine which one is in the picture and the species and breed
+    Using the animals in {animal_information} determine which one is in the picture and the species
 
     Rules:
     - If there are more than 1 different types of animals in the picture, focus on the one that takes up more space
