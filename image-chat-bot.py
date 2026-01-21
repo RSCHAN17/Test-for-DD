@@ -4,9 +4,6 @@ import base64
 import os
 import tempfile
 
-
-
-
 client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 
 
