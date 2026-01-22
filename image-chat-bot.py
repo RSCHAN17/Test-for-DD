@@ -42,13 +42,13 @@ if uploaded_file:
     - If the animal is not in {df}, ONLY respond with the:
     'This animal is not in the database, it could be a: ' and then the specific animal and speciies
     - If the animal is in the {df}, 
-        Return with the row information and the number of animals in the picture as how_many
+        Return with the row information and the number of animals in the picture as how_many and the row number starting from 1 it is in the table as zoo_ID 
         Return a Dictionary object only in the format {'{}'}
         With valid dictionary keys:
     - name (as type str)
     - species (as type str)
-    - capture_points (as type float)
-    - pack_bonus_mult (as type float)
+    - capture_points (as type int)
+    - zoo_ID (as type int)
     - how_many (as type int)
     """
 
@@ -73,18 +73,27 @@ if uploaded_file:
     
     
     st.markdown(f'**Spotted:**')
-    st.markdown(f'{answer}')
     if answer[0] == '{':
         temp=str(f"{answer}")
         data=json.loads(temp)
-        st.html(f"<p><span>{data}</span></p>")
-        st.html(f"""<p><span>
-            You have spotted: {data["name"]} <br>
-            Species: {data['species']} <br>
-            Points: {data['capture_points']} <br>
-            Pack multiplier: {data['pack_bonus_mult']} <br>
-            Number spotted: {data['how_many']}
-            </span></p>""")
+        st.html(f"""<div id='info' font-family: "Roboto Slab", serif;'>
+        <p>You have spotted: 
+        <span id='name'>{data["name"]}
+        </span></p>
+        <p>Zoo ID:
+        <span id='id'>{data["zoo_ID"]}
+        </span></p>
+        <p>Species:
+        <span id='species'>{data['species']}
+        </span></p>
+        <p>Number of them:
+        <span id='species'>{data['how_many']}
+        </span></p>            
+        <p>Points
+        <span id='capture_points'>{data['capture_points']}
+        </span></p></div>
+        """)
     else:
         st.html(f"<p><span>{answer}</span></p>")
+    st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}'/></span>")
 
