@@ -29,7 +29,7 @@ if uploaded_file:
 
     # Getting the Base64 string
     base64_image = encode_image(image_path)
-
+    
     prompt = f"""
     Task:
     Determine if the picture is one of the animals in {df} and if so then which one.
@@ -70,6 +70,7 @@ if uploaded_file:
     )
 
     answer=response.output_text
+
     
     
     st.markdown(f'**Spotted:**')
@@ -87,7 +88,7 @@ if uploaded_file:
         <span id='species'>{data['species']}
         </span></p>
         <p>Number of them:
-        <span id='species'>{data['how_many']}
+        <span id='number'>{data['how_many']}
         </span></p>            
         <p>Points
         <span id='capture_points'>{data['capture_points']}
