@@ -3,11 +3,13 @@ import streamlit as st
 import base64
 import os
 import tempfile
+import json
+import pandas as pd
 
 client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
+df=pd.read_csv('spotted-animals.csv')
 
-
-st.title("Animal Chatbot")
+st.title("Spotted verifier")
 uploaded_file = st.file_uploader(
     "Upload image", type=["jpg", "png","HEIC"])
 if uploaded_file:
@@ -28,31 +30,27 @@ if uploaded_file:
     # Getting the Base64 string
     base64_image = encode_image(image_path)
 
-    animal_information=[{"animal:dog"},{"animal:cat"},{"animal:fox"},{"animal:bird"}]
-
     prompt = f"""
     Task:
-    Using the animals in {animal_information} determine which one is in the picture and the species
+    Determine if the picture is one of the animals in {df} and if so then which one.
 
     Rules:
-    - If there are more than 1 different types of animals in the picture, focus on the one that takes up more space
+    - If there are more than 1 different types of animals in the picture, ONLY focus on the one that has the highest 'capture_points'
     - If there are more than one of the same animal in the picture, return the number of them additionally
 
     Output form:
-    If there is an animal in the picture and it is in {animal_information}:
-    'You have spotted' and then the animal, its species, its breed and how many.
-    If there is an animal in the picture but it is not in {animal_information}: 
-    'The animal you have spotted is not in our database, it could be': and then the animal that it is.
-    If there are no animals in the picture: 
-    "There is no animal spotted in this picture, try again!"
-
+    - If the animal is not in {df}, ONLY respond with the:
+    'This animal is not in the database, it could be a: ' and then the specific animal and speciies
+    - If the animal is in the {df}, 
+        Return with the row information and the number of animals in the picture as how_many
+        Return a Dictionary object only in the format {'{}'}
+        With valid dictionary keys:
+    - name (as type str)
+    - species (as type str)
+    - capture_points (as type float)
+    - pack_bonus_mult (as type float)
+    - how_many (as type int)
     """
-### Is it in database: Yes
-### What is is the main animal in the photo: 
-### Is there another animal in this photo:
-### How many of the main animal are there:
-### What species is the animal:
-### What breed is the animal:
 
 
     response = client.responses.create(
@@ -72,7 +70,21 @@ if uploaded_file:
     )
 
     answer=response.output_text
-
-
+    
+    
     st.markdown(f'**Spotted:**')
-    st.markdown(f'**Answer:** {answer}')
+    st.markdown(f'{answer}')
+    if answer[0] == '{':
+        temp=str(f"{answer}")
+        data=json.loads(temp)
+        st.html(f"<p><span>{data}</span></p>")
+        st.html(f"""<p><span>
+            You have spotted: {data["name"]} <br>
+            Species: {data['species']} <br>
+            Points: {data['capture_points']} <br>
+            Pack multiplier: {data['pack_bonus_mult']} <br>
+            Number spotted: {data['how_many']}
+            </span></p>""")
+    else:
+        st.html(f"<p><span>{answer}</span></p>")
+
