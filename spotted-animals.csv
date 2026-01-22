@@ -1,289 +1,289 @@
-﻿zoo_id,name,type,capture_points,pack_bonus_mult,description,fun_fact,zoo_image,species,family_id
-1,Sika deer,Mammal,15,1.35,Often in small herds or family groups.,,,Cervus nippon,1
-2,Chinese water deer,Mammal,18,2,Generally solitary except during mating.,,,Hydropotes inermis,1
-3,Beaver,Mammal,35,2,"Live in family units, but often seen alone swimming.",,,Castor fiber,2
-4,Rabbit,Mammal,1,1.1,Live in large warrens; often graze in groups.,,,Oryctolagus cuniculus,3
-5,Mountain hare,Mammal,20,2,"Solitary; unlike rabbits, they do not dig warrens.",,,Lepus timidus,3
-6,Brown hare,Mammal,8,2,"Solitary, except during ""boxing"" (mating) season.",,,Lepus europaeus,3
-7,Field vole,Mammal,6,2,Solitary and territorial.,,,Microtus agrestis,4
-8,Bank vole,Mammal,6,2,Solitary.,,,Myodes glareolus,4
-9,Water vole,Mammal,35,2,Solitary and territorial.,,,Arvicola amphibius,4
-10,Brown rat,Mammal,2,1.1,Highly social; live in colonies.,,,Rattus norvegicus,5
-11,Wood mouse,Mammal,3,2,Generally solitary foragers.,,,Apodemus sylvaticus,5
-12,House mouse,Mammal,3,1.1,Social; live in family groups near humans.,,,Mus musculus,5
-13,Harvest mouse,Mammal,30,2,Solitary except when breeding.,,,Micromys minutus,5
-14,Hazel dormouse,Mammal,40,2,Solitary and nocturnal.,,,Muscardinus avellanarius,6
-15,Red squirrel,Mammal,30,2,Solitary; territorial.,,,Sciurus vulgaris,7
-16,Grey squirrel,Mammal,2,2,"Solitary, though can be seen feeding near others.",,,Sciurus carolinensis,7
-17,Fallow deer,Mammal,10,1.1,Often form large herds.,,,Dama dama,1
-18,Red deer,Mammal,12,1.1,Highly social; live in herds (sexes often separate).,,,Cervus elaphus,1
-19,Muntjac deer,Mammal,8,2,Solitary or in pairs (mother/fawn).,,,Muntiacus reevesi,1
-20,Roe deer,Mammal,10,1.35,Small family groups or solitary.,,,Capreolus capreolus,1
-21,Polecat,Mammal,25,2,Solitary.,,,Mustela putorius,8
-22,Pine marten,Mammal,42,2,Solitary and elusive.,,,Martes martes,8
-23,Wildcat,Mammal,49,2,Highly solitary.,,,Felis silvestris,9
-24,Weasel,Mammal,15,2,Solitary.,,,Mustela nivalis,8
-25,Stoat,Mammal,15,2,Solitary.,,,Mustela erminea,8
-26,American mink,Mammal,15,2,Solitary.,,,Neovison vison,8
-27,European otter,Mammal,38,2,Solitary (except mother with cubs).,,,Lutra lutra,8
-28,European badger,Mammal,18,1.35,"Live in social clans, but often forage alone.",,,Meles meles,8
-29,Red fox,Mammal,5,2,Solitary foragers.,,,Vulpes vulpes,10
-30,Alcathoe bat,Mammal,50,1.35,Roost in colonies; hunt alone.,,,Myotis alcathoe,11
-31,Whiskered bat,Mammal,35,1.35,Roost in colonies.,,,Myotis mystacinus,11
-32,Serotine,Mammal,25,1.35,Roost in colonies.,,,Eptesicus serotinus,11
-33,Natterer's bat,Mammal,30,1.35,Roost in colonies.,,,Myotis nattereri,11
-34,Leisler's bat,Mammal,35,1.35,Roost in colonies.,,,Nyctalus leisleri,11
-35,Grey long-eared bat,Mammal,45,1.35,Roost in colonies.,,,Plecotus austriacus,11
-36,Daubenton's bat,Mammal,20,1.35,Roost in colonies; feed in groups over water.,,,Myotis daubentonii,11
-37,Brandt's bat,Mammal,35,1.35,Roost in colonies.,,,Myotis brandtii,11
-38,Lesser horseshoe bat,Mammal,38,1.35,Roost in colonies.,,,Rhinolophus hipposideros,12
-39,Greater horseshoe bat,Mammal,40,1.35,Roost in colonies.,,,Rhinolophus ferrumequinum,12
-40,Bechstein's bat,Mammal,48,1.35,Roost in colonies.,,,Myotis bechsteinii,11
-41,Barbastelle bat,Mammal,45,1.35,Roost in colonies.,,,Barbastella barbastellus,11
-42,Brown long-eared bat,Mammal,20,1.35,Roost in colonies.,,,Plecotus auritus,11
-43,Noctule,Mammal,20,1.35,Roost in colonies.,,,Nyctalus noctula,11
-44,Common pipistrelle,Mammal,5,1.35,Roost in colonies; hunt in loose groups.,,,Pipistrellus pipistrellus,11
-45,Mole,Mammal,15,2,Solitary and subterranean.,,,Talpa europaea,13
-46,Water shrew,Mammal,25,2,Solitary.,,,Neomys fodiens,14
-47,Pygmy shrew,Mammal,8,2,Solitary.,,,Sorex minutus,14
-48,Common shrew,Mammal,6,2,Solitary.,,,Sorex araneus,14
-49,European hedgehog,Mammal,15,2,Solitary.,,,Erinaceus europaeus,15
-50,Sand lizard,Reptile,40,2,Solitary.,,,Lacerta agilis,75
-51,Smooth snake,Reptile,45,2,Solitary.,,,Coronella austriaca,76
-52,Adder,Reptile,28,2,Solitary (sometimes bask together after hibernation).,,,Vipera berus,77
-53,Grass snake,Reptile,15,2,Solitary.,,,Natrix helvetica,76
-54,Slow worm,Reptile,15,2,Solitary.,,,Anguis fragilis,78
-55,Common lizard,Reptile,12,2,Solitary.,,,Zootoca vivipara,75
-56,Marsh frog,Amphibians,15,1.35,Can form large choruses in breeding season.,,,Pelophylax ridibundus,79
-57,Common frog,Amphibians,3,1.35,Gather in large numbers to spawn.,,,Rana temporaria,79
-58,Natterjack toad,Amphibians,42,1.35,Gather in groups for breeding.,,,Epidalea calamita,80
-59,Common toad,Amphibians,8,1.35,Migrate and breed in large groups.,,,Bufo bufo,80
-60,Palmate newt,Amphibians,12,2,Aquatic phase solitary/loose groups.,,,Lissotriton helveticus,81
-61,Smooth newt,Amphibians,8,2,Aquatic phase solitary/loose groups.,,,Lissotriton vulgaris,81
-62,Great crested newt,Amphibians,25,2,Solitary.,,,Triturus cristatus,81
-63,Red-necked grebe,Bird,35,1.35,Often winter in loose flocks.,,,Podiceps grisegena,16
-64,Great northern diver,Bird,35,2,Usually solitary or pairs.,,,Gavia immer,17
-65,Little grebe,Bird,15,2,Solitary or pairs.,,,Tachybaptus ruficollis,16
-66,Great crested grebe,Bird,10,2,Solitary or pairs.,,,Podiceps cristatus,16
-67,Black-necked grebe,Bird,40,1.35,Colonial nester; flocks in winter.,,,Podiceps nigricollis,16
-68,Slavonian grebe,Bird,40,1.35,Loose flocks in winter.,,,Podiceps auritus,16
-69,Black-throated diver,Bird,42,2,Solitary or pairs.,,,Gavia arctica,17
-70,Red-throated diver,Bird,30,2,Solitary or pairs.,,,Gavia stellata,17
-71,Mediterranean gull,Bird,20,1.1,Gregarious; often with other gulls.,,,Ichthyaetus melanocephalus,18
-72,Sooty shearwater,Bird,35,1.1,Pelagic flocks.,,,Ardenna grisea,19
-73,Storm Petrel,Bird,38,1.1,Pelagic flocks; colonial breeder.,,,Hydrobates pelagicus,20
-74,Roseate tern,Bird,45,1.1,Colonial nester; flocks.,,,Sterna dougallii,18
-75,Arctic tern,Bird,25,1.1,Colonial nester; flocks.,,,Sterna paradisaea,18
-76,Common tern,Bird,15,1.1,Colonial nester; flocks.,,,Sterna hirundo,18
-77,Sandwich tern,Bird,18,1.1,Colonial nester; flocks.,,,Thalasseus sandvicensis,18
-78,Little tern,Bird,30,1.1,Colonial nester; flocks.,,,Sternula albifrons,18
-79,Kittiwake,Bird,20,1.1,Colonial nester; flocks.,,,Rissa tridactyla,18
-80,Great black-backed gull,Bird,15,2,Often solitary or small groups.,,,Larus marinus,18
-81,Lesser black-backed gull,Bird,10,1.1,Flocks and colonies.,,,Larus fuscus,18
-82,Herring gull,Bird,5,1.1,Flocks and colonies.,,,Larus argentatus,18
-83,Common gull,Bird,10,1.1,Flocks and colonies.,,,Larus canus,18
-84,Black-headed gull,Bird,3,1.1,Large flocks and colonies.,,,Chroicocephalus ridibundus,18
-85,Arctic skua,Bird,32,2,Solitary or pairs at sea.,,,Stercorarius parasiticus,21
-86,Great skua,Bird,32,2,Solitary or pairs at sea.,,,Stercorarius skua,21
-87,Razorbill,Bird,22,1.1,Colonial breeder; rafts at sea.,,,Alca torda,22
-88,Guillemot,Bird,20,1.1,Colonial breeder; rafts at sea.,,,Uria aalge,22
-89,Black guillemot,Bird,30,2,Solitary or pairs usually.,,,Cepphus grylle,22
-90,Puffin,Bird,25,1.1,Colonial breeder; rafts at sea.,,,Fratercula arctica,22
-91,Shag,Bird,20,1.35,Loose colonies; small groups.,,,Gulosus aristotelis,23
-92,Cormorant,Bird,8,1.35,Roost and feed in groups.,,,Phalacrocorax carbo,23
-93,Northern gannet,Bird,20,1.1,Large colonies; feed in groups.,,,Morus bassanus,24
-94,Manx shearwater,Bird,25,1.1,Huge colonies; rafts at sea.,,,Puffinus puffinus,19
-95,Fulmar,Bird,15,1.35,Loose colonies; often follow ships.,,,Fulmarus glacialis,19
-96,Red-crested pochard,Bird,30,1.35,Flocks in winter.,,,Netta rufina,25
-97,Long-tailed duck,Bird,35,1.35,Flocks in winter.,,,Clangula hyemalis,25
-98,Egyptian goose,Bird,12,1.35,Pairs or family groups.,,,Alopochen aegyptiaca,25
-99,Smew,Bird,40,2,Small groups or solitary.,,,Mergellus albellus,25
-100,Garganey,Bird,38,2,Pairs or small groups.,,,Spatula querquedula,25
-101,Eider,Bird,20,1.1,Large flocks (rafts).,,,Somateria mollissima,25
-102,Common scoter,Bird,25,1.1,Large flocks at sea.,,,Melanitta nigra,25
-103,Red-breasted merganser,Bird,22,1.35,Loose flocks.,,,Mergus serrator,25
-104,Goosander,Bird,20,1.35,Loose flocks.,,,Mergus merganser,25
-105,Goldeneye,Bird,25,1.35,Small flocks.,,,Bucephala clangula,25
-106,Tufted duck,Bird,8,1.1,Large flocks.,,,Aythya fuligula,25
-107,Pochard,Bird,25,1.1,Large flocks.,,,Aythya ferina,25
-108,Teal,Bird,10,1.1,Large flocks.,,,Anas crecca,25
-109,Wigeon,Bird,12,1.1,Large grazing flocks.,,,Mareca penelope,25
-110,Shoveler,Bird,15,1.35,Pairs or small groups.,,,Spatula clypeata,25
-111,Pintail,Bird,25,1.35,Flocks in winter.,,,Anas acuta,25
-112,Gadwall,Bird,15,1.35,Pairs or small groups.,,,Mareca strepera,25
-113,Mallard,Bird,1,1.35,Pairs or small flocks.,,,Anas platyrhynchos,25
-114,Mandarin duck,Bird,15,1.35,Pairs or small flocks.,,,Aix galericulata,25
-115,Shelduck,Bird,12,1.35,Flocks in winter/moult.,,,Tadorna tadorna,25
-116,Brent goose,Bird,18,1.1,Large flocks.,,,Branta bernicla,25
-117,Barnacle goose,Bird,20,1.1,Large flocks.,,,Branta leucopsis,25
-118,Canada goose,Bird,3,1.1,Large flocks.,,,Branta canadensis,25
-119,Pink-footed goose,Bird,18,1.1,Large flocks.,,,Anser brachyrhynchus,25
-120,White-fronted goose,Bird,30,1.1,Large flocks.,,,Anser albifrons,25
-121,Greylag goose,Bird,5,1.1,Large flocks.,,,Anser anser,25
-122,Whooper swan,Bird,25,1.35,Family groups or herds.,,,Cygnus cygnus,25
-123,Bewick's swan,Bird,35,1.35,Family groups or herds.,,,Cygnus columbianus,25
-124,Mute swan,Bird,2,1.35,Pairs or herds.,,,Cygnus olor,25
-125,Glossy ibis,Bird,40,1.35,Small flocks.,,,Plegadis falcinellus,26
-126,Cattle egret,Bird,30,1.35,Small flocks near livestock.,,,Bubulcus ibis,27
-127,Common crane,Bird,38,1.35,Flocks in migration/winter.,,,Grus grus,28
-128,Great white egret,Bird,28,2,Solitary or loose groups.,,,Ardea alba,27
-129,European spoonbill,Bird,32,1.35,Small flocks.,,,Platalea leucorodia,26
-130,Little egret,Bird,10,1.35,Loose groups; colonial rooster.,,,Egretta garzetta,27
-131,Grey heron,Bird,5,2,Solitary feeder; colonial nester.,,,Ardea cinerea,27
-132,Bittern,Bird,45,2,Solitary.,,,Botaurus stellaris,27
-133,Honey buzzard,Bird,45,2,Solitary.,,,Pernis apivorus,29
-134,Goshawk,Bird,40,2,Solitary.,,,Accipiter gentilis,29
-135,Barn owl,Bird,30,2,Solitary.,,,Tyto alba,30
-136,Little owl,Bird,25,2,Solitary.,,,Athene noctua,31
-137,Long-eared owl,Bird,35,1.35,Communal winter roosts.,,,Asio otus,31
-138,Short-eared owl,Bird,30,2,Solitary (sometimes loose roosts).,,,Asio flammeus,31
-139,Tawny owl,Bird,20,2,Solitary.,,,Strix aluco,31
-140,Merlin,Bird,35,2,Solitary.,,,Falco columbarius,32
-141,Peregrine falcon,Bird,25,2,Solitary.,,,Falco peregrinus,32
-142,Hobby,Bird,28,2,Solitary.,,,Falco subbuteo,32
-143,Kestrel,Bird,12,2,Solitary.,,,Falco tinnunculus,32
-144,Sparrowhawk,Bird,15,2,Solitary.,,,Accipiter nisus,29
-145,Buzzard,Bird,8,2,Solitary.,,,Buteo buteo,29
-146,Hen harrier,Bird,40,2,Solitary (communal roosts in winter).,,,Circus cyaneus,29
-147,Marsh harrier,Bird,30,2,Solitary.,,,Circus aeruginosus,29
-148,Osprey,Bird,38,2,Solitary.,,,Pandion haliaetus,33
-149,Red kite,Bird,15,1.35,Gregarious at roosts/feeding.,,,Milvus milvus,29
-150,Golden eagle,Bird,48,2,Solitary.,,,Aquila chrysaetos,29
-151,White-tailed eagle,Bird,47,2,Solitary.,,,Haliaeetus albicilla,29
-152,Quail,Bird,35,2,Solitary.,,,Coturnix coturnix,34
-153,Capercaillie,Bird,50,2,Solitary (leks for breeding).,,,Tetrao urogallus,34
-154,Ptarmigan,Bird,40,1.35,Small flocks in winter.,,,Lagopus muta,34
-155,Pheasant,Bird,2,2,Loose groups/solitary.,,,Phasianus colchicus,34
-156,Grey partridge,Bird,25,1.35,Coveys (family groups).,,,Perdix perdix,34
-157,Red-legged partridge,Bird,10,1.35,Coveys.,,,Alectoris rufa,34
-158,Black grouse,Bird,40,1.35,Leks (breeding groups).,,,Lyrurus tetrix,34
-159,Red grouse,Bird,15,2,Solitary or loose pairs.,,,Lagopus lagopus scotica,34
-160,Little stint,Bird,30,1.35,Flocks with other waders.,,,Calidris minuta,35
-161,Stone curlew,Bird,42,2,Solitary or pairs.,,,Burhinus oedicnemus,36
-162,Black-winged stilt,Bird,45,1.35,Small groups.,,,Himantopus himantopus,37
-163,Jack snipe,Bird,35,2,Solitary.,,,Lymnocryptes minimus,35
-164,Purple sandpiper,Bird,35,1.35,Small flocks on rocky shores.,,,Calidris maritima,35
-165,Corncrake,Bird,48,2,Solitary.,,,Crex crex,38
-166,Red-neck phalarope,Bird,45,2,Solitary or small groups.,,,Phalaropus lobatus,35
-167,Snipe,Bird,18,2,Solitary feeder; wisps in flight.,,,Gallinago gallinago,35
-168,Woodcock,Bird,25,2,Solitary.,,,Scolopax rusticola,35
-169,Whimbrel,Bird,25,1.35,Passage flocks.,,,Numenius phaeopus,35
-170,Curlew,Bird,20,1.1,Large winter flocks.,,,Numenius arquata,35
-171,Bar-tailed godwit,Bird,25,1.1,Large winter flocks.,,,Limosa lapponica,35
-172,Black-tailed godwit,Bird,25,1.1,Large winter flocks.,,,Limosa limosa,35
-173,Greenshank,Bird,25,2,Solitary or small groups.,,,Tringa nebularia,35
-174,Redshank,Bird,15,1.1,Flocks.,,,Tringa totanus,35
-175,Ruff,Bird,30,1.35,Flocks (leks in breeding).,,,Calidris pugnax,35
-176,Common sandpiper,Bird,20,2,Solitary.,,,Actitis hypoleucos,35
-177,Green Sandpiper,Bird,25,2,Solitary.,,,Tringa ochropus,35
-178,Dunlin,Bird,18,1.1,Large flocks.,,,Calidris alpina,35
-179,Sanderling,Bird,20,1.1,Flocks chasing waves.,,,Calidris alba,35
-180,Knot,Bird,20,1.1,"Huge, dense flocks.",,,Calidris canutus,35
-181,Turnstone,Bird,18,1.35,Small flocks.,,,Arenaria interpres,35
-182,Grey plover,Bird,20,1.35,Loose flocks.,,,Pluvialis squatarola,39
-183,Golden plover,Bird,18,1.1,Large winter flocks.,,,Pluvialis apricaria,39
-184,Lapwing,Bird,12,1.1,Large winter flocks.,,,Vanellus vanellus,39
-185,Ringed plover,Bird,15,1.35,Small flocks.,,,Charadrius hiaticula,39
-186,Little ringed plover,Bird,25,2,Solitary or pairs.,,,Charadrius dubius,39
-187,Avocet,Bird,28,1.35,Loose colonies/flocks.,,,Recurvirostra avosetta,37
-188,Oystercatcher,Bird,10,1.1,Large flocks.,,,Haematopus ostralegus,40
-189,Coot,Bird,5,1.35,Loose groups.,,,Fulica atra,38
-190,Moorhen,Bird,5,2,Solitary or pairs.,,,Gallinula chloropus,38
-191,Water rail,Bird,28,2,Solitary.,,,Rallus aquaticus,38
-192,Collared dove,Bird,5,1.35,Pairs or small flocks.,,,Streptopelia decaocto,41
-193,Turtle dove,Bird,45,2,Pairs.,,,Streptopelia turtur,41
-194,Stock dove,Bird,12,1.35,Flocks with Woodpigeons.,,,Columba oenas,41
-195,Woodpigeon,Bird,1,1.1,Large flocks.,,,Columba palumbus,41
-196,Rock dove,Bird,5,1.1,Flocks (Feral Pigeons).,,,Columba livia,41
-197,Wryneck,Bird,45,2,Solitary.,,,Jynx torquilla,42
-198,Waxwing,Bird,35,1.1,Flocks in winter (irruptions).,,,Bombycilla garrulus,43
-199,Kingfisher,Bird,25,2,Solitary.,,,Alcedo atthis,44
-200,Cuckoo,Bird,30,2,Solitary.,,,Cuculus canorus,45
-201,Lesser spotted woodpecker,Bird,44,2,Solitary.,,,Dryobates minor,42
-202,Green woodpecker,Bird,20,2,Solitary.,,,Picus viridis,42
-203,Great spotted woodpecker,Bird,12,2,Solitary.,,,Dendrocopos major,42
-204,Nightjar,Bird,42,2,Solitary (crepuscular).,,,Caprimulgus europaeus,46
-205,Swallow,Bird,8,1.1,Flocks (migration/roosting).,,,Hirundo rustica,47
-206,House martin,Bird,10,1.1,Colonial nester; flocks.,,,Delichon urbicum,47
-207,Sand martin,Bird,15,1.1,Colonial nester; flocks.,,,Riparia riparia,47
-208,Swift,Bird,15,1.1,Screamers parties/flocks.,,,Apus apus,48
-209,Ring-necked parakeet,Bird,10,1.1,Noisy flocks.,,,Psittacula krameri,49
-210,Tree pipit,Bird,25,2,Solitary.,,,Anthus trivialis,50
-211,Shore lark,Bird,40,1.35,Small flocks in winter.,,,Eremophila alpestris,51
-212,Tree sparrow,Bird,20,1.35,Loose colonies/flocks.,,,Passer montanus,52
-213,House sparrow,Bird,3,1.1,Social colonies/flocks.,,,Passer domesticus,52
-214,Dunnock,Bird,4,2,Solitary (complex mating).,,,Prunella modularis,53
-215,Grey wagtail,Bird,15,2,Solitary.,,,Motacilla cinerea,50
-216,Yellow wagtail,Bird,25,1.35,Loose groups near cattle.,,,Motacilla flava,50
-217,Pied wagtail,Bird,8,1.35,Winter roosts; solitary feeder.,,,Motacilla alba yarrellii,50
-218,Meadow pipit,Bird,8,1.35,Loose flocks in winter.,,,Anthus pratensis,50
-219,Rock pipit,Bird,18,2,Solitary.,,,Anthus petrosus,50
-220,Woodlark,Bird,38,1.35,Small flocks in winter.,,,Lullula arborea,51
-221,Skylark,Bird,10,1.35,Flocks in winter.,,,Alauda arvensis,51
-222,Black redstart,Bird,35,2,Solitary.,,,Phoenicurus ochruros,54
-223,Ring ouzel,Bird,35,2,Solitary or loose passage groups.,,,Turdus torquatus,55
-224,Treecreeper,Bird,18,2,Solitary (sometimes in tit flocks).,,,Certhia familiaris,56
-225,Nuthatch,Bird,12,2,Solitary.,,,Sitta europaea,57
-226,Wren,Bird,2,2,Solitary.,,,Troglodytes troglodytes,58
-227,Dipper,Bird,22,2,Solitary.,,,Cinclus cinclus,59
-228,Starling,Bird,5,1.1,Huge murmurations.,,,Sturnus vulgaris,60
-229,Spotted flycatcher,Bird,30,2,Solitary.,,,Muscicapa striata,54
-230,Pied flycatcher,Bird,30,2,Solitary.,,,Ficedula hypoleuca,54
-231,Wheatear,Bird,20,2,Solitary.,,,Oenanthe oenanthe,54
-232,Whinchat,Bird,25,2,Solitary.,,,Saxicola rubetra,54
-233,Stonechat,Bird,15,2,Pairs.,,,Saxicola rubicola,54
-234,Redstart,Bird,25,2,Solitary.,,,Phoenicurus phoenicurus,54
-235,Nightingale,Bird,35,2,Solitary (singing males).,,,Luscinia megarhynchos,54
-236,Robin,Bird,1,2,Highly territorial/solitary.,,,Erithacus rubecula,54
-237,Blackbird,Bird,1,2,Solitary feeder.,,,Turdus merula,55
-238,Fieldfare,Bird,15,1.1,Large winter flocks.,,,Turdus pilaris,55
-239,Redwing,Bird,15,1.1,Large winter flocks.,,,Turdus iliacus,55
-240,Mistle thrush,Bird,12,2,Solitary or pairs.,,,Turdus viscivorus,55
-241,Song thrush,Bird,8,2,Solitary.,,,Turdus philomelos,55
-242,Yellow-browed warbler,Bird,40,2,Solitary (vagrant).,,,Phylloscopus inornatus,61
-243,Grasshopper warbler,Bird,35,2,Solitary.,,,Locustella naevia,62
-244,Firecrest,Bird,30,2,Solitary or with tit flocks.,,,Regulus ignicapilla,63
-245,Dartford warbler,Bird,35,2,Pairs or solitary.,,,Curruca undata,64
-246,Chiffchaff,Bird,8,2,Solitary.,,,Phylloscopus collybita,61
-247,Willow warbler,Bird,10,2,Solitary.,,,Phylloscopus trochilus,61
-248,Wood warbler,Bird,30,2,Solitary.,,,Phylloscopus sibilatrix,61
-249,Cetti's warbler,Bird,20,2,Solitary.,,,Cettia cetti,65
-250,Reed warbler,Bird,15,1.35,Loose colonies in reedbeds.,,,Acrocephalus scirpaceus,66
-251,Sedge warbler,Bird,15,2,Solitary.,,,Acrocephalus schoenobaenus,66
-252,Lesser whitethroat,Bird,20,2,Solitary.,,,Curruca curruca,64
-253,Whitethroat,Bird,12,2,Solitary.,,,Curruca communis,64
-254,Garden warbler,Bird,20,2,Solitary.,,,Sylvia borin,64
-255,Blackcap,Bird,10,2,Solitary.,,,Sylvia atricapilla,64
-256,Goldcrest,Bird,12,1.35,Flocks in winter with tits.,,,Regulus regulus,63
-257,Marsh tit,Bird,25,1.35,Pairs or small groups.,,,Poecile palustris,67
-258,Willow tit,Bird,45,1.35,Pairs or small groups.,,,Poecile montanus,67
-259,Bearded tit,Bird,35,1.1,"Flocks in reedbeds (""pinging"").",,,Panurus biarmicus,68
-260,Long-tailed tit,Bird,8,1.1,Family flocks.,,,Aegithalos caudatus,69
-261,Coal tit,Bird,10,1.35,Flocks with other tits.,,,Periparus ater,67
-262,Blue tit,Bird,2,1.35,Flocks in winter.,,,Cyanistes caeruleus,67
-263,Great tit,Bird,3,1.35,Flocks in winter.,,,Parus major,67
-264,Great grey shrike,Bird,45,2,Solitary.,,,Lanius excubitor,70
-265,Raven,Bird,20,1.35,Pairs or adolescent groups.,,,Corvus corax,71
-266,Hooded crow,Bird,20,1.35,Pairs or small groups.,,,Corvus cornix,71
-267,Carrion crow,Bird,3,1.35,Pairs or small groups.,,,Corvus corone,71
-268,Rook,Bird,5,1.1,Colonial rookeries.,,,Corvus frugilegus,71
-269,Jackdaw,Bird,4,1.1,Flocks and colonies.,,,Corvus monedula,71
-270,Chough,Bird,35,1.35,Flocks.,,,Pyrrhocorax pyrrhocorax,71
-271,Jay,Bird,10,2,Solitary or small groups.,,,Garrulus glandarius,71
-272,Magpie,Bird,3,1.35,Pairs or loose groups.,,,Pica pica,71
-273,Common rosefinch,Bird,45,1.35,Small groups.,,,Carpodacus erythrinus,72
-274,Twite,Bird,35,1.35,Flocks.,,,Linaria flavirostris,72
-275,Brambling,Bird,20,1.1,Winter flocks with Chaffinches.,,,Fringilla montifringilla,72
-276,Hawfinch,Bird,42,1.35,Shy flocks.,,,Coccothraustes coccothraustes,72
-277,Snow bunting,Bird,30,1.35,Winter flocks.,,,Plectrophenax nivalis,73
-278,Corn bunting,Bird,25,1.35,Loose flocks/roosts.,,,Emberiza calandra,74
-279,Yellowhammer,Bird,15,1.35,Winter flocks.,,,Emberiza citrinella,74
-280,Reed bunting,Bird,15,1.35,Loose groups/roosts.,,,Emberiza schoeniclus,74
-281,Common crossbill,Bird,25,1.1,Flocks.,,,Loxia curvirostra,72
-282,Bullfinch,Bird,18,1.35,Pairs or small groups.,,,Pyrrhula pyrrhula,72
-283,Siskin,Bird,15,1.1,Flocks.,,,Spinus spinus,72
-284,Goldfinch,Bird,8,1.1,"Flocks (""charms"").",,,Carduelis carduelis,72
-285,Greenfinch,Bird,10,1.35,Flocks.,,,Chloris chloris,72
-286,Lesser redpoll,Bird,20,1.1,Flocks.,,,Acanthis cabaret,72
-287,Linnet,Bird,12,1.1,Flocks.,,,Linaria cannabina,72
-288,Chaffinch,Bird,5,1.1,Large winter flocks.,,,Fringilla coelebs,72
+﻿name,species,zoo_id,capture_points
+Sika deer,Cervus nippon,1,15
+Chinese water deer,Hydropotes inermis,2,18
+Beaver,Castor fiber,3,35
+Rabbit,Oryctolagus cuniculus,4,1
+Mountain hare,Lepus timidus,5,20
+Brown hare,Lepus europaeus,6,8
+Field vole,Microtus agrestis,7,6
+Bank vole,Myodes glareolus,8,6
+Water vole,Arvicola amphibius,9,35
+Brown rat,Rattus norvegicus,10,2
+Wood mouse,Apodemus sylvaticus,11,3
+House mouse,Mus musculus,12,3
+Harvest mouse,Micromys minutus,13,30
+Hazel dormouse,Muscardinus avellanarius,14,40
+Red squirrel,Sciurus vulgaris,15,30
+Grey squirrel,Sciurus carolinensis,16,2
+Fallow deer,Dama dama,17,10
+Red deer,Cervus elaphus,18,12
+Muntjac deer,Muntiacus reevesi,19,8
+Roe deer,Capreolus capreolus,20,10
+Polecat,Mustela putorius,21,25
+Pine marten,Martes martes,22,42
+Wildcat,Felis silvestris,23,49
+Weasel,Mustela nivalis,24,15
+Stoat,Mustela erminea,25,15
+American mink,Neovison vison,26,15
+European otter,Lutra lutra,27,38
+European badger,Meles meles,28,18
+Red fox,Vulpes vulpes,29,5
+Alcathoe bat,Myotis alcathoe,30,50
+Whiskered bat,Myotis mystacinus,31,35
+Serotine,Eptesicus serotinus,32,25
+Natterer's bat,Myotis nattereri,33,30
+Leisler's bat,Nyctalus leisleri,34,35
+Grey long-eared bat,Plecotus austriacus,35,45
+Daubenton's bat,Myotis daubentonii,36,20
+Brandt's bat,Myotis brandtii,37,35
+Lesser horseshoe bat,Rhinolophus hipposideros,38,38
+Greater horseshoe bat,Rhinolophus ferrumequinum,39,40
+Bechstein's bat,Myotis bechsteinii,40,48
+Barbastelle bat,Barbastella barbastellus,41,45
+Brown long-eared bat,Plecotus auritus,42,20
+Noctule,Nyctalus noctula,43,20
+Common pipistrelle,Pipistrellus pipistrellus,44,5
+Mole,Talpa europaea,45,15
+Water shrew,Neomys fodiens,46,25
+Pygmy shrew,Sorex minutus,47,8
+Common shrew,Sorex araneus,48,6
+European hedgehog,Erinaceus europaeus,49,15
+Sand lizard,Lacerta agilis,50,40
+Smooth snake,Coronella austriaca,51,45
+Adder,Vipera berus,52,28
+Grass snake,Natrix helvetica,53,15
+Slow worm,Anguis fragilis,54,15
+Common lizard,Zootoca vivipara,55,12
+Marsh frog,Pelophylax ridibundus,56,15
+Common frog,Rana temporaria,57,3
+Natterjack toad,Epidalea calamita,58,42
+Common toad,Bufo bufo,59,8
+Palmate newt,Lissotriton helveticus,60,12
+Smooth newt,Lissotriton vulgaris,61,8
+Great crested newt,Triturus cristatus,62,25
+Red-necked grebe,Podiceps grisegena,63,35
+Great northern diver,Gavia immer,64,35
+Little grebe,Tachybaptus ruficollis,65,15
+Great crested grebe,Podiceps cristatus,66,10
+Black-necked grebe,Podiceps nigricollis,67,40
+Slavonian grebe,Podiceps auritus,68,40
+Black-throated diver,Gavia arctica,69,42
+Red-throated diver,Gavia stellata,70,30
+Mediterranean gull,Ichthyaetus melanocephalus,71,20
+Sooty shearwater,Ardenna grisea,72,35
+Storm Petrel,Hydrobates pelagicus,73,38
+Roseate tern,Sterna dougallii,74,45
+Arctic tern,Sterna paradisaea,75,25
+Common tern,Sterna hirundo,76,15
+Sandwich tern,Thalasseus sandvicensis,77,18
+Little tern,Sternula albifrons,78,30
+Kittiwake,Rissa tridactyla,79,20
+Great black-backed gull,Larus marinus,80,15
+Lesser black-backed gull,Larus fuscus,81,10
+Herring gull,Larus argentatus,82,5
+Common gull,Larus canus,83,10
+Black-headed gull,Chroicocephalus ridibundus,84,3
+Arctic skua,Stercorarius parasiticus,85,32
+Great skua,Stercorarius skua,86,32
+Razorbill,Alca torda,87,22
+Guillemot,Uria aalge,88,20
+Black guillemot,Cepphus grylle,89,30
+Puffin,Fratercula arctica,90,25
+Shag,Gulosus aristotelis,91,20
+Cormorant,Phalacrocorax carbo,92,8
+Northern gannet,Morus bassanus,93,20
+Manx shearwater,Puffinus puffinus,94,25
+Fulmar,Fulmarus glacialis,95,15
+Red-crested pochard,Netta rufina,96,30
+Long-tailed duck,Clangula hyemalis,97,35
+Egyptian goose,Alopochen aegyptiaca,98,12
+Smew,Mergellus albellus,99,40
+Garganey,Spatula querquedula,100,38
+Eider,Somateria mollissima,101,20
+Common scoter,Melanitta nigra,102,25
+Red-breasted merganser,Mergus serrator,103,22
+Goosander,Mergus merganser,104,20
+Goldeneye,Bucephala clangula,105,25
+Tufted duck,Aythya fuligula,106,8
+Pochard,Aythya ferina,107,25
+Teal,Anas crecca,108,10
+Wigeon,Mareca penelope,109,12
+Shoveler,Spatula clypeata,110,15
+Pintail,Anas acuta,111,25
+Gadwall,Mareca strepera,112,15
+Mallard,Anas platyrhynchos,113,1
+Mandarin duck,Aix galericulata,114,15
+Shelduck,Tadorna tadorna,115,12
+Brent goose,Branta bernicla,116,18
+Barnacle goose,Branta leucopsis,117,20
+Canada goose,Branta canadensis,118,3
+Pink-footed goose,Anser brachyrhynchus,119,18
+White-fronted goose,Anser albifrons,120,30
+Greylag goose,Anser anser,121,5
+Whooper swan,Cygnus cygnus,122,25
+Bewick's swan,Cygnus columbianus,123,35
+Mute swan,Cygnus olor,124,2
+Glossy ibis,Plegadis falcinellus,125,40
+Cattle egret,Bubulcus ibis,126,30
+Common crane,Grus grus,127,38
+Great white egret,Ardea alba,128,28
+European spoonbill,Platalea leucorodia,129,32
+Little egret,Egretta garzetta,130,10
+Grey heron,Ardea cinerea,131,5
+Bittern,Botaurus stellaris,132,45
+Honey buzzard,Pernis apivorus,133,45
+Goshawk,Accipiter gentilis,134,40
+Barn owl,Tyto alba,135,30
+Little owl,Athene noctua,136,25
+Long-eared owl,Asio otus,137,35
+Short-eared owl,Asio flammeus,138,30
+Tawny owl,Strix aluco,139,20
+Merlin,Falco columbarius,140,35
+Peregrine falcon,Falco peregrinus,141,25
+Hobby,Falco subbuteo,142,28
+Kestrel,Falco tinnunculus,143,12
+Sparrowhawk,Accipiter nisus,144,15
+Buzzard,Buteo buteo,145,8
+Hen harrier,Circus cyaneus,146,40
+Marsh harrier,Circus aeruginosus,147,30
+Osprey,Pandion haliaetus,148,38
+Red kite,Milvus milvus,149,15
+Golden eagle,Aquila chrysaetos,150,48
+White-tailed eagle,Haliaeetus albicilla,151,47
+Quail,Coturnix coturnix,152,35
+Capercaillie,Tetrao urogallus,153,50
+Ptarmigan,Lagopus muta,154,40
+Pheasant,Phasianus colchicus,155,2
+Grey partridge,Perdix perdix,156,25
+Red-legged partridge,Alectoris rufa,157,10
+Black grouse,Lyrurus tetrix,158,40
+Red grouse,Lagopus lagopus scotica,159,15
+Little stint,Calidris minuta,160,30
+Stone curlew,Burhinus oedicnemus,161,42
+Black-winged stilt,Himantopus himantopus,162,45
+Jack snipe,Lymnocryptes minimus,163,35
+Purple sandpiper,Calidris maritima,164,35
+Corncrake,Crex crex,165,48
+Red-neck phalarope,Phalaropus lobatus,166,45
+Snipe,Gallinago gallinago,167,18
+Woodcock,Scolopax rusticola,168,25
+Whimbrel,Numenius phaeopus,169,25
+Curlew,Numenius arquata,170,20
+Bar-tailed godwit,Limosa lapponica,171,25
+Black-tailed godwit,Limosa limosa,172,25
+Greenshank,Tringa nebularia,173,25
+Redshank,Tringa totanus,174,15
+Ruff,Calidris pugnax,175,30
+Common sandpiper,Actitis hypoleucos,176,20
+Green Sandpiper,Tringa ochropus,177,25
+Dunlin,Calidris alpina,178,18
+Sanderling,Calidris alba,179,20
+Knot,Calidris canutus,180,20
+Turnstone,Arenaria interpres,181,18
+Grey plover,Pluvialis squatarola,182,20
+Golden plover,Pluvialis apricaria,183,18
+Lapwing,Vanellus vanellus,184,12
+Ringed plover,Charadrius hiaticula,185,15
+Little ringed plover,Charadrius dubius,186,25
+Avocet,Recurvirostra avosetta,187,28
+Oystercatcher,Haematopus ostralegus,188,10
+Coot,Fulica atra,189,5
+Moorhen,Gallinula chloropus,190,5
+Water rail,Rallus aquaticus,191,28
+Collared dove,Streptopelia decaocto,192,5
+Turtle dove,Streptopelia turtur,193,45
+Stock dove,Columba oenas,194,12
+Woodpigeon,Columba palumbus,195,1
+Rock dove,Columba livia,196,5
+Wryneck,Jynx torquilla,197,45
+Waxwing,Bombycilla garrulus,198,35
+Kingfisher,Alcedo atthis,199,25
+Cuckoo,Cuculus canorus,200,30
+Lesser spotted woodpecker,Dryobates minor,201,44
+Green woodpecker,Picus viridis,202,20
+Great spotted woodpecker,Dendrocopos major,203,12
+Nightjar,Caprimulgus europaeus,204,42
+Swallow,Hirundo rustica,205,8
+House martin,Delichon urbicum,206,10
+Sand martin,Riparia riparia,207,15
+Swift,Apus apus,208,15
+Ring-necked parakeet,Psittacula krameri,209,10
+Tree pipit,Anthus trivialis,210,25
+Shore lark,Eremophila alpestris,211,40
+Tree sparrow,Passer montanus,212,20
+House sparrow,Passer domesticus,213,3
+Dunnock,Prunella modularis,214,4
+Grey wagtail,Motacilla cinerea,215,15
+Yellow wagtail,Motacilla flava,216,25
+Pied wagtail,Motacilla alba yarrellii,217,8
+Meadow pipit,Anthus pratensis,218,8
+Rock pipit,Anthus petrosus,219,18
+Woodlark,Lullula arborea,220,38
+Skylark,Alauda arvensis,221,10
+Black redstart,Phoenicurus ochruros,222,35
+Ring ouzel,Turdus torquatus,223,35
+Treecreeper,Certhia familiaris,224,18
+Nuthatch,Sitta europaea,225,12
+Wren,Troglodytes troglodytes,226,2
+Dipper,Cinclus cinclus,227,22
+Starling,Sturnus vulgaris,228,5
+Spotted flycatcher,Muscicapa striata,229,30
+Pied flycatcher,Ficedula hypoleuca,230,30
+Wheatear,Oenanthe oenanthe,231,20
+Whinchat,Saxicola rubetra,232,25
+Stonechat,Saxicola rubicola,233,15
+Redstart,Phoenicurus phoenicurus,234,25
+Nightingale,Luscinia megarhynchos,235,35
+Robin,Erithacus rubecula,236,1
+Blackbird,Turdus merula,237,1
+Fieldfare,Turdus pilaris,238,15
+Redwing,Turdus iliacus,239,15
+Mistle thrush,Turdus viscivorus,240,12
+Song thrush,Turdus philomelos,241,8
+Yellow-browed warbler,Phylloscopus inornatus,242,40
+Grasshopper warbler,Locustella naevia,243,35
+Firecrest,Regulus ignicapilla,244,30
+Dartford warbler,Curruca undata,245,35
+Chiffchaff,Phylloscopus collybita,246,8
+Willow warbler,Phylloscopus trochilus,247,10
+Wood warbler,Phylloscopus sibilatrix,248,30
+Cetti's warbler,Cettia cetti,249,20
+Reed warbler,Acrocephalus scirpaceus,250,15
+Sedge warbler,Acrocephalus schoenobaenus,251,15
+Lesser whitethroat,Curruca curruca,252,20
+Whitethroat,Curruca communis,253,12
+Garden warbler,Sylvia borin,254,20
+Blackcap,Sylvia atricapilla,255,10
+Goldcrest,Regulus regulus,256,12
+Marsh tit,Poecile palustris,257,25
+Willow tit,Poecile montanus,258,45
+Bearded tit,Panurus biarmicus,259,35
+Long-tailed tit,Aegithalos caudatus,260,8
+Coal tit,Periparus ater,261,10
+Blue tit,Cyanistes caeruleus,262,2
+Great tit,Parus major,263,3
+Great grey shrike,Lanius excubitor,264,45
+Raven,Corvus corax,265,20
+Hooded crow,Corvus cornix,266,20
+Carrion crow,Corvus corone,267,3
+Rook,Corvus frugilegus,268,5
+Jackdaw,Corvus monedula,269,4
+Chough,Pyrrhocorax pyrrhocorax,270,35
+Jay,Garrulus glandarius,271,10
+Magpie,Pica pica,272,3
+Common rosefinch,Carpodacus erythrinus,273,45
+Twite,Linaria flavirostris,274,35
+Brambling,Fringilla montifringilla,275,20
+Hawfinch,Coccothraustes coccothraustes,276,42
+Snow bunting,Plectrophenax nivalis,277,30
+Corn bunting,Emberiza calandra,278,25
+Yellowhammer,Emberiza citrinella,279,15
+Reed bunting,Emberiza schoeniclus,280,15
+Common crossbill,Loxia curvirostra,281,25
+Bullfinch,Pyrrhula pyrrhula,282,18
+Siskin,Spinus spinus,283,15
+Goldfinch,Carduelis carduelis,284,8
+Greenfinch,Chloris chloris,285,10
+Lesser redpoll,Acanthis cabaret,286,20
+Linnet,Linaria cannabina,287,12
+Chaffinch,Fringilla coelebs,288,5
