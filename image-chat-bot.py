@@ -9,6 +9,8 @@ import pandas as pd
 client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 df=pd.read_csv('spotted-animals.csv')
 
+
+
 st.title("Spotted verifier")
 uploaded_file = st.file_uploader(
     "Upload image", type=["jpg", "png","HEIC"])
@@ -39,7 +41,9 @@ if uploaded_file:
     - If there are more than one of the same animal in the picture, return the number of them additionally
 
     Output form:
-    - If the animal is not in {df}, ONLY respond with the:
+    - If there is no animal in the picture,ONLY respond with:
+    'No animal has been identified in the picture, please try again!'
+    - If the animal is not in {df}, ONLY respond with:
     'This animal is not in the database, it could be a: ' and then the specific animal and speciies
     - If the animal is in the {df}, 
         Return with the row information and the number of animals in the picture as how_many and the row number starting from 1 it is in the table as zoo_ID 
@@ -77,21 +81,16 @@ if uploaded_file:
     if answer[0] == '{':
         temp=str(f"{answer}")
         data=json.loads(temp)
-        st.html(f"""<div id='info' font-family: "Roboto Slab", serif;'>
-        <p>You have spotted: 
-        <span id='name'>{data["name"]}
+        st.html(f"""<div id='info'>
+        <p>You have spotted: <span id='name'>{data["name"]}
         </span></p>
-        <p>Zoo ID:
-        <span id='id'>{data["zoo_ID"]}
+        <p>Zoo ID: <span id='zoo_id'>{data["zoo_ID"]}
         </span></p>
-        <p>Species:
-        <span id='species'>{data['species']}
+        <p>Species: <span id='species'>{data['species']}
         </span></p>
-        <p>Number of them:
-        <span id='number'>{data['how_many']}
+        <p>Number of them: <span id='number'>{data['how_many']}
         </span></p>            
-        <p>Points
-        <span id='capture_points'>{data['capture_points']}
+        <p>Points: <span id='capture_points'>{data['capture_points']}
         </span></p></div>
         """)
     else:
