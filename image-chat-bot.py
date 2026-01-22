@@ -46,13 +46,13 @@ if uploaded_file:
     - If the animal is not in {df}, ONLY respond with:
     'This animal is not in the database, it could be a: ' and then the specific animal and speciies
     - If the animal is in the {df}, 
-        Return with the row information and the number of animals in the picture as how_many and the row number starting from 1 it is in the table as zoo_ID 
+        Return with the row information and the number of animals in the picture as how_many
         Return a Dictionary object only in the format {'{}'}
         With valid dictionary keys:
     - name (as type str)
     - species (as type str)
     - capture_points (as type int)
-    - zoo_ID (as type int)
+    - zoo_id (as type int)
     - how_many (as type int)
     """
 
@@ -84,7 +84,7 @@ if uploaded_file:
         st.html(f"""<div id='info'>
         <p>You have spotted: <span id='name'>{data["name"]}
         </span></p>
-        <p>Zoo ID: <span id='zoo_id'>{data["zoo_ID"]}
+        <p>Zoo ID: <span id='zoo_id'>{data["zoo_id"]}
         </span></p>
         <p>Species: <span id='species'>{data['species']}
         </span></p>
