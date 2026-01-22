@@ -46,14 +46,14 @@ if uploaded_file:
     - If the animal is not in {df}, ONLY respond with:
     'This animal is not in the database, it could be a: ' and then the specific animal and speciies
     - If the animal is in the {df}, 
-        Return with the row information and the number of animals in the picture as how_many
+        Return with the row information for the columns:name,species,capture_points,zoo_id and the number of animals in the picture as how_many
         Return a Dictionary object only in the format {'{}'}
         With valid dictionary keys:
-    - name (as type str)
-    - species (as type str)
-    - capture_points (as type int)
-    - zoo_id (as type int)
-    - how_many (as type int)
+    - name-(as type str)
+    - species-(as type str)
+    - capture_points-(as type int)
+    - zoo_id-(as type int)
+    - how_many-(as type int)
     """
 
 
