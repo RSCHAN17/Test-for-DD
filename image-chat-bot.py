@@ -41,19 +41,15 @@ if uploaded_file:
     - If there are more than one of the same animal in the picture, return the number of them additionally
 
     Output form:
-    - If there is no animal in the picture,ONLY respond with:
+    - If there is no animal in the picture, ONLY respond with:
     'No animal has been identified in the picture, please try again!'
     - If the animal is not in {df}, ONLY respond with:
     'This animal is not in the database, it could be a: ' and then the specific animal and speciies
     - If the animal is in the {df}, 
-        Return with the row information gotten from its row in the {df} for the columns:name,species,capture_points,zoo_id and the number of animals in the picture as how_many
-        Return a Dictionary object only in the format {'{}'}
-        With valid dictionary keys:
-    - name-(as type str)
-    - species-(as type str)
-    - zoo_id-(as type int)    
-    - capture_points-(as type int)
-    - how_many-(as type int)
+        ONLY return the name of the animal
+        IT MUST exactly match its name in {df}
+        And the number of that animal in the picture
+        in the format: yes,name,number
     """
 
 
@@ -74,13 +70,17 @@ if uploaded_file:
     )
 
     answer=response.output_text
-
+    output=[x.strip() for x in answer.split(",")]
+    if output[0]=='yes':
+        
+        name = df.loc[df['name'] == output[1]]['name'].values[0]
+        zoo_id = df.loc[df['name'] == output[1]]['zoo_id'].values[0]
+        species = df.loc[df['name'] == output[1]]['species'].values[0]
+        capture_points = df.loc[df['name'] == output[1]]['capture_points'].values[0]
+        num=output[2]
+        data={"name":name,"zoo_id":zoo_id,"species":species,"capture_points":capture_points,"how_many":num}
     
-    
-    st.markdown(f'**Spotted:**')
-    if answer[0] == '{':
-        temp=str(f"{answer}")
-        data=json.loads(temp)
+        st.markdown(f'**Spotted:**')
         st.html(f"""<div id='info'>
         <p>You have spotted: <span id='name'>{data["name"]}
         </span></p>
