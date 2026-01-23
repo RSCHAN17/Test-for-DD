@@ -6,6 +6,7 @@ import tempfile
 import json
 import pandas as pd
 import requests
+import datetime
 
 client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 df=pd.read_csv('spotted-animals.csv')
@@ -97,20 +98,24 @@ if uploaded_file:
         </div>
         """)
         st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
+        image_url=f"data:image;base64,{base64_image}"
         with st.form(key="spot_submission", clear_on_submit=True):
             st.write("Submit spotting")
-            user_id=st.text_input(label='User id')
+            username=st.text_input(label='To confirm you want to submit your spotting, enter your username')
             st.write("Location - Paste your what 3 words location")
             location=st.text_input(label="https://what3words.com")
             submitted = st.form_submit_button("Submit")
             if submitted:
-                if 1.0 * len(user_id) * len(location) > 0:
+                if 1.0 * len(username) * len(location) > 0:
+                    now = pd.to_datetime(datetime.datetime.now())
+                    now = now.replace(microsecond=0)
+                    now = now.isoformat()
+                    url_post = "https://spotting-api.onrender.com/spottings/new"
+                    post_data = {"date_time":now, "username":username, "animal_name":name, "animal_count":num, "location":location, "image_url":image_url}
+                    post_response = requests.post(url_post,json=post_data)
+                    post_response_json = post_response.json()
                     st.write("Submitted spot!")
-                # url = "https://spotting-api.onrender.com/spottings/new "
-                # post = {
-                # }
-                # response = requests.post(url,json=post)
-
+                    
 
     else:
         st.html(f"<p><span>{answer}</span></p>")
