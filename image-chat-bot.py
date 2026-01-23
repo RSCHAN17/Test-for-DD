@@ -72,7 +72,7 @@ if uploaded_file:
     answer=response.output_text
     output=[x.strip() for x in answer.split(",")]
     if output[0]=='yes':
-        
+
         name = df.loc[df['name'] == output[1]]['name'].values[0]
         zoo_id = df.loc[df['name'] == output[1]]['zoo_id'].values[0]
         species = df.loc[df['name'] == output[1]]['species'].values[0]
@@ -96,5 +96,5 @@ if uploaded_file:
         """)
     else:
         st.html(f"<p><span>{answer}</span></p>")
-    st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}'/></span>")
+    st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
 
