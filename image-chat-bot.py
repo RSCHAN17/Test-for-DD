@@ -5,6 +5,7 @@ import os
 import tempfile
 import json
 import pandas as pd
+import requests
 
 client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 df=pd.read_csv('spotted-animals.csv')
@@ -77,6 +78,7 @@ if uploaded_file:
         zoo_id = df.loc[df['name'] == output[1]]['zoo_id'].values[0]
         species = df.loc[df['name'] == output[1]]['species'].values[0]
         capture_points = df.loc[df['name'] == output[1]]['capture_points'].values[0]
+        pack_bonus_mult = df.loc[df['name'] == output[1]]['pack_bonus_mult'].values[0]
         num=output[2]
         data={"name":name,"zoo_id":zoo_id,"species":species,"capture_points":capture_points,"how_many":num}
     
@@ -94,7 +96,26 @@ if uploaded_file:
         </span></p>
         </div>
         """)
+        st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
+        with st.form(key="spot_submission", clear_on_submit=True):
+            st.write("Submit spotting")
+            user_id=st.text_input(label='User id')
+            st.write("Location - Paste your what 3 words location")
+            location=st.text_input(label="https://what3words.com")
+            submitted = st.form_submit_button("Submit")
+            if submitted:
+                if 1.0 * len(user_id) * len(location) > 0:
+                    st.write("Submitted spot!")
+                # url = "https://spotting-api.onrender.com/spottings/new "
+                # post = {
+                # }
+                # response = requests.post(url,json=post)
+
+
     else:
         st.html(f"<p><span>{answer}</span></p>")
-    st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
+        st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
+
+
+    
 
