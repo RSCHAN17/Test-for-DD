@@ -99,6 +99,14 @@ if uploaded_file:
         """)
         st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
         image_url=f"data:image;base64,{base64_image}"
+        
+        css = """
+        <style>
+            div[data-testid="stForm"] {
+                background-color: #A5C89E !important;
+            }
+        </style>
+        """
         with st.form(key="spot_submission", clear_on_submit=True):
             st.write("Submit spotting")
             username=st.text_input(label='To confirm you want to submit your spotting, enter your username')
@@ -116,7 +124,7 @@ if uploaded_file:
                     post_response_json = post_response.json()
                     st.write("Submitted spot!")
                     
-
+        st.write(css,unsafe_allow_html=True)
     else:
         st.html(f"<p><span>{answer}</span></p>")
         st.html(f"<span id='img'> <img src='data:image;base64,{base64_image}' style='max-height:300px;'/></span>")
