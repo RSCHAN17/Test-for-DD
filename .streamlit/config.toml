@@ -2,7 +2,3 @@
 backgroundColor="#36656B"
 textColor="#F5F1C4"
 font = "Jockey One:https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"
-
-[data-testid="stForm"]
-backgroundColor="#A9C8A0"
-textColor="#10323A"
