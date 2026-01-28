@@ -1,4 +1,4 @@
-from openai import OpenAI
+from google import genai
 import streamlit as st
 import base64
 import os
@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 import datetime
 
-client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
+client = genai(api_key=st.secrets["API_KEY"]) # type: ignore
 df=pd.read_csv('spotted-animals.csv')
 
 
