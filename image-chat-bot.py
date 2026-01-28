@@ -110,15 +110,15 @@ if uploaded_file:
         css = """
         <style>
             div[data-testid="stForm"] {
-                background-color: #A5C89E !important;
+                background-color: #36656B !important;
             }
         </style>
         """
         with st.form(key="spot_submission", clear_on_submit=True):
             st.write("Submit spotting")
             username=st.text_input(label='To confirm you want to submit your spotting, enter your username')
-            st.write("Location - Paste your what 3 words location")
-            location=st.text_input(label="https://what3words.com")
+            st.write("Location - Copy and paste your coordinates from here:")
+            location=st.text_input(label="https://plus.codes/map")
             submitted = st.form_submit_button("Submit")
             if submitted:
                 if 1.0 * len(username) * len(location) > 0:
