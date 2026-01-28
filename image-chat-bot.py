@@ -1,4 +1,4 @@
-import google
+from openai import OpenAI
 import streamlit as st
 import base64
 import os
@@ -8,10 +8,17 @@ import pandas as pd
 import requests
 import datetime
 
-client = google.genai(api_key=st.secrets["API_KEY"]) # type: ignore
+client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
 df=pd.read_csv('spotted-animals.csv')
 
-
+st.markdown("""
+    <style>
+    /* Target the text inside */
+    [data-testid="stFileUploadDropzone"] p {
+        color: black;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 st.title("Spotted verifier")
 uploaded_file = st.file_uploader(
