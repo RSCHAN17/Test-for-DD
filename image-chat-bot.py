@@ -81,9 +81,7 @@ ls = [
 st.markdown("""
     <style>
     /* Target the text inside */
-    [data-testid="stFileUploadDropzone"] p {
-        color: black;
-    }
+    
     </style>
     """, unsafe_allow_html=True)
 
@@ -173,7 +171,7 @@ if uploaded_file:
         css = """
         <style>
             div[data-testid="stForm"] {
-                background-color: #36656B !important;
+                background-color: red !important;
             }
             .stTextinput input[aria-label="To confirm you want to submit your spotting, enter your username"] {
                 background-color: #A5C89E !important;
