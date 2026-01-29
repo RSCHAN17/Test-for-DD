@@ -78,12 +78,7 @@ ls = [
     "Common crossbill", "Bullfinch", "Siskin", "Goldfinch", "Greenfinch", 
     "Lesser redpoll", "Linnet", "Chaffinch"
 ]
-st.markdown("""
-    <style>
-    /* Target the text inside */
-    
-    </style>
-    """, unsafe_allow_html=True)
+
 
 st.title("Spotted verifier")
 uploaded_file = st.file_uploader(
@@ -173,11 +168,11 @@ if uploaded_file:
             div[data-testid="stForm"] {
                 background-color: #36656B !important;
             }
-            .stTextinput input[aria-label="To confirm you want to submit your spotting, enter your username"] {
+            .stTextinput input[aria-label="username"] {
                 background-color: #A5C89E !important;
                 color: #36656B !important;
             }
-            .stTextinput input[aria-label="Location - In the form of lat,long - Copy and paste your coordinates from here:"] {
+            .stTextinput input[aria-label="location"] {
                 background-color: #A5C89E !important;
                 color: #36656B !important;
             }

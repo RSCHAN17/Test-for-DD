@@ -1,4 +1,5 @@
 [theme]
 backgroundColor="#A5C89E"
-textColor= "black"
+textColor = "black"
 font = "Jockey One:https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"
+linkColor = "#FBFAE5"
