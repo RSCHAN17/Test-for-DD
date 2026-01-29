@@ -175,6 +175,10 @@ if uploaded_file:
             div[data-testid="stForm"] {
                 background-color: #36656B !important;
             }
+            div[data-tesid="stTextinput"] {
+                background-color: #A5C89E !important;
+                color: #36656B !important;
+            }
         </style>
         """
         with st.form(key="spot_submission", clear_on_submit=True):
