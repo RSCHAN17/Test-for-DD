@@ -175,7 +175,11 @@ if uploaded_file:
             div[data-testid="stForm"] {
                 background-color: #36656B !important;
             }
-            div[data-tesid="stTextinput"] {
+            .stTextinput input[aria-label="To confirm you want to submit your spotting, enter your username"] {
+                background-color: #A5C89E !important;
+                color: #36656B !important;
+            }
+            .stTextinput input[aria-label="Location - In the form of lat,long - Copy and paste your coordinates from here:"] {
                 background-color: #A5C89E !important;
                 color: #36656B !important;
             }
@@ -183,7 +187,7 @@ if uploaded_file:
         """
         with st.form(key="spot_submission", clear_on_submit=True):
             st.write("Submit spotting")
-            username=st.text_input(label='To confirm you want to submit your spotting, enter your username')
+            username=st.text_input(label="To confirm you want to submit your spotting, enter your username")
             st.write("Location - In the form of lat,long - Copy and paste your coordinates from here:")
             location=st.text_input(label="https://plus.codes/map")
             submitted = st.form_submit_button("Submit")
