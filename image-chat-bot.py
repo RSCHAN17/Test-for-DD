@@ -171,7 +171,7 @@ if uploaded_file:
         css = """
         <style>
             div[data-testid="stForm"] {
-                background-color: red !important;
+                background-color: #36656B !important;
             }
             .stTextinput input[aria-label="To confirm you want to submit your spotting, enter your username"] {
                 background-color: #A5C89E !important;
