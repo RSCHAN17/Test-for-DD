@@ -8,8 +8,9 @@ import pandas as pd
 import requests
 import datetime
 
-client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
+
 df=pd.read_csv('spotted-animals.csv')
+ls=['Sika deer', 'Chinese water deer', 'Beaver', 'Rabbit', 'Mountain hare', 'Brown hare', 'Field vole', 'Bank vole', 'Water vole', 'Brown rat', 'Wood mouse', 'House mouse', 'Harvest mouse', 'Hazel dormouse', 'Red squirrel', 'Grey squirrel', 'Fallow deer', 'Red deer', 'Muntjac deer', 'Roe deer', 'Polecat', 'Pine marten', 'Wildcat', 'Weasel', 'Stoat', 'American mink', 'European otter', 'European badger', 'Red fox', 'Alcathoe bat', 'Whiskered bat', 'Serotine', 'Natterer\'s bat', 'Leisler\'s bat', 'Grey long-eared bat', 'Daubenton\'s bat', 'Brandt\'s bat', 'Lesser horseshoe bat', 'Greater horseshoe bat', 'Bechstein\'s bat', 'Barbastelle bat', 'Brown long-eared bat', 'Noctule', 'Common pipistrelle', 'Soprano pipistrelle', 'Nathusius\' pipistrelle', 'Hedgehog', 'Mole', 'Common shrew', 'Pygmy shrew', 'Water shrew', 'Barn owl', 'Short-eared owl', 'Long-eared owl', 'Tawny owl', 'Little owl', 'Swift', 'Kingfisher', 'Green woodpecker', 'Great spotted woodpecker', 'Lesser spotted woodpecker', 'Honey buzzard', 'Goshawk', 'Sparrowhawk', 'Marsh harrier', 'Hen harrier', 'Red kite', 'White-tailed eagle', 'Buzzard', 'Kestrel', 'Merlin', 'Hobby', 'Peregrine', 'Pheasant', 'Grey partridge', 'Red-legged partridge', 'Quail', 'Woodpigeon', 'Stock dove', 'Rock dove', 'Turtle dove', 'Collared dove', 'Cuckoo', 'Great bustard', 'Crane', 'Water rail', 'Corncrake', 'Moorhen', 'Coot', 'Greylag goose', 'Pink-footed goose', 'White-fronted goose', 'Brent goose', 'Canada goose', 'Barnacle goose', 'Mute swan', 'Whooper swan', 'Bewick\'s swan', 'Shelduck', 'Shoveler', 'Gadwall', 'Wigeon', 'Mallard', 'Pintail', 'Teal', 'Eider', 'Common scoter', 'Velvet scoter', 'Goldeneye', 'Goosander', 'Red-breasted merganser', 'Grey heron', 'Bittern', 'Little egret', 'Great white egret', 'Cormorant', 'Shag', 'Gannet', 'Oystercatcher', 'Avocet', 'Lapwing', 'Golden plover', 'Grey plover', 'Ringed plover', 'Little ringed plover', 'Whimbrel', 'Curlew', 'Bar-tailed godwit', 'Black-tailed godwit', 'Turnstone', 'Knot', 'Ruff', 'Sanderling', 'Dunlin', 'Purple sandpiper', 'Woodcock', 'Snipe', 'Redshank', 'Greenshank', 'Green sandpiper', 'Common sandpiper', 'Arctic skua', 'Great skua', 'Guillemot', 'Razorbill', 'Puffin', 'Black-headed gull', 'Common gull', 'Great black-backed gull', 'Herring gull', 'Lesser black-backed gull', 'Kittiwake', 'Little tern', 'Sandwich tern', 'Common tern', 'Arctic tern', 'Raven', 'Carrion crow', 'Hooded crow', 'Rook', 'Jackdaw', 'Magpie', 'Jay', 'Chough', 'Goldfinch', 'Greenfinch', 'Linnet', 'Twite', 'Redpoll', 'Crossbill', 'Bullfinch', 'Hawfinch', 'Chaffinch', 'Brambling', 'Corn bunting', 'Yellowhammer', 'Cirl bunting', 'Reed bunting', 'House sparrow', 'Tree sparrow', 'Grey wagtail', 'Pied wagtail', 'Yellow wagtail', 'Tree pipit', 'Meadow pipit', 'Rock pipit', 'Woodlark', 'Skylark', 'Black redstart', 'Ring ouzel', 'Treecreeper', 'Nuthatch', 'Wren', 'Dipper', 'Starling', 'Spotted flycatcher', 'Pied flycatcher', 'Wheatear', 'Whinchat', 'Stonechat', 'Redstart', 'Nightingale', 'Robin', 'Blackbird', 'Fieldfare', 'Redwing', 'Mistle thrush', 'Song thrush', 'Yellow-browed warbler', 'Grasshopper warbler', 'Firecrest', 'Dartford warbler', 'Chiffchaff', 'Willow warbler', 'Wood warbler', 'Cetti\'s warbler', 'Reed warbler', 'Sedge warbler', 'Lesser whitethroat', 'Whitethroat', 'Garden warbler', 'Blackcap', 'Goldcrest', 'Marsh tit', 'Willow tit', 'Bearded tit', 'Long-tailed tit', 'Coal tit', 'Great tit', 'Blue tit', 'Sand martin', 'Swallow', 'House martin']
 
 st.markdown("""
     <style>
@@ -24,6 +25,7 @@ st.title("Spotted verifier")
 uploaded_file = st.file_uploader(
     "Upload image", type=["jpg", "png","HEIC"])
 if uploaded_file:
+    client = OpenAI(api_key=st.secrets["API_KEY"]) # type: ignore
     temp_dir = tempfile.mkdtemp()
     path = os.path.join(temp_dir, uploaded_file.name)
     with open(path, "wb") as f:
@@ -43,23 +45,26 @@ if uploaded_file:
     
     prompt = f"""
     Task:
-    Determine if the picture is one of the animals in {df} and if so then which one.
+    Determine if the picture is one of the animals in {ls} and if so then which one.
 
     Rules:
-    - If there are more than 1 different types of animals in the picture, ONLY focus on the one that has the highest 'capture_points'
-    - If there are more than one of the same animal in the picture, return the number of them additionally
+    - If there are more than 1 different types of animals in the picture, ONLY focus on the one that takes up the most space on the page
+    - If there are more than one of the SAME ANIMAL in the picture, return the number of them additionally
 
     Output form:
-    - If there is no animal in the picture, ONLY respond with:
-    'No animal has been identified in the picture, please try again!'
-    - If the animal is not in {df}, ONLY respond with:
-    'This animal is not in the database, it could be a: ' and then the specific animal and speciies
-    - If the animal is in the {df}, 
-        ONLY return the name of the animal
-        IT MUST exactly match its name in {df}
-        And the number of that animal in the picture
-        in the format: yes,name,number
+
+    - If there is an animal in the picture 
+        1. Determine which of those animals from {ls} is the most likely to be the animal in the picture
+        2. Return the name from {ls}, how many of that animal, and the word yes in the 
+        3. format the answer ONLY AS: yes,name,number
+
+    - If, WITH 100% CERTAINTY the animal is not in {ls} or there is no animal in the picture, return the phrase:
+    Sorry we could match the animal in the picture to to an animal in our databse.
     """
+   # - If the animal is DEFINITELY NOT in {ls}, ONLY respond with:
+   # 'This animal is not in the database, it could be a: ' and then the specific animal.
+   # - If there is no animal in the picture, ONLY respond with:
+   # 'No animal has been identified in the picture, please try again!'
 
 
     response = client.responses.create(
@@ -117,7 +122,7 @@ if uploaded_file:
         with st.form(key="spot_submission", clear_on_submit=True):
             st.write("Submit spotting")
             username=st.text_input(label='To confirm you want to submit your spotting, enter your username')
-            st.write("Location - Copy and paste your coordinates from here:")
+            st.write("Location - In the form of lat,long - Copy and paste your coordinates from here:")
             location=st.text_input(label="https://plus.codes/map")
             submitted = st.form_submit_button("Submit")
             if submitted:

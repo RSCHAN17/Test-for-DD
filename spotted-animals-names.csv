@@ -1,0 +1,289 @@
+animal,Genus
+Sika deer,Cervus
+Chinese water deer,Hydropotes
+Beaver,Castor
+Rabbit,Oryctolagus
+Mountain hare,Lepus
+Brown hare,Lepus
+Field vole,Microtus
+Bank vole,Myodes
+Water vole,Arvicola
+Brown rat,Rattus
+Wood mouse,Apodemus
+House mouse,Mus
+Harvest mouse,Micromys
+Hazel dormouse,Muscardinus
+Red squirrel,Sciurus
+Grey squirrel,Sciurus
+Fallow deer,Dama
+Red deer,Cervus
+Muntjac deer,Muntiacus
+Roe deer,Capreolus
+Polecat,Mustela
+Pine marten,Martes
+Wildcat,Felis
+Weasel,Mustela
+Stoat,Mustela
+American mink,Neogale
+European otter,Lutra
+European badger,Meles
+Red fox,Vulpes
+Alcathoe bat,Myotis
+Whiskered bat,Myotis
+Serotine,Eptesicus
+Natterer's bat,Myotis
+Leisler's bat,Nyctalus
+Grey long-eared bat,Plecotus
+Daubenton's bat,Myotis
+Brandt's bat,Myotis
+Lesser horseshoe bat,Rhinolophus
+Greater horseshoe bat,Rhinolophus
+Bechstein's bat,Myotis
+Barbastelle bat,Barbastella
+Brown long-eared bat,Plecotus
+Noctule,Nyctalus
+Common pipistrelle,Pipistrellus
+Mole,Talpa
+Water shrew,Neomys
+Pygmy shrew,Sorex
+Common shrew,Sorex
+European hedgehog,Erinaceus
+Sand lizard,Lacerta
+Smooth snake,Coronella
+Adder,Vipera
+Grass snake,Natrix
+Slow worm,Anguis
+Common lizard,Zootoca
+Marsh frog,Pelophylax
+Common frog,Rana
+Natterjack toad,Epidalea
+Common toad,Bufo
+Palmate newt,Lissotriton
+Smooth newt,Lissotriton
+Great crested newt,Triturus
+Red-necked grebe,Podiceps
+Great northern diver,Gavia
+Little grebe,Tachybaptus
+Great crested grebe,Podiceps
+Black-necked grebe,Podiceps
+Slavonian grebe,Podiceps
+Black-throated diver,Gavia
+Red-throated diver,Gavia
+Mediterranean gull,Ichthyaetus
+Sooty shearwater,Ardenna
+Storm Petrel,Hydrobates
+Roseate tern,Sterna
+Arctic tern,Sterna
+Common tern,Sterna
+Sandwich tern,Thalasseus
+Little tern,Sternula
+Kittiwake,Rissa
+Great black-backed gull,Larus
+Lesser black-backed gull,Larus
+Herring gull,Larus
+Common gull,Larus
+Black-headed gull,Chroicocephalus
+Arctic skua,Stercorarius
+Great skua,Stercorarius
+Razorbill,Alca
+Guillemot,Uria
+Black guillemot,Cepphus
+Puffin,Fratercula
+Shag,Gulosus
+Cormorant,Phalacrocorax
+Northern gannet,Morus
+Manx shearwater,Puffinus
+Fulmar,Fulmarus
+Red-crested pochard,Netta
+Long-tailed duck,Clangula
+Egyptian goose,Alopochen
+Smew,Mergellus
+Garganey,Spatula
+Eider,Somateria
+Common scoter,Melanitta
+Red-breasted merganser,Mergus
+Goosander,Mergus
+Goldeneye,Bucephala
+Tufted duck,Aythya
+Pochard,Aythya
+Teal,Anas
+Wigeon,Mareca
+Shoveler,Spatula
+Pintail,Anas
+Gadwall,Mareca
+Mallard,Anas
+Mandarin duck,Aix
+Shelduck,Tadorna
+Brent goose,Branta
+Barnacle goose,Branta
+Canada goose,Branta
+Pink-footed goose,Anser
+White-fronted goose,Anser
+Greylag goose,Anser
+Whooper swan,Cygnus
+Bewick's swan,Cygnus
+Mute swan,Cygnus
+Glossy ibis,Plegadis
+Cattle egret,Bubulcus
+Common crane,Grus
+Great white egret,Ardea
+European spoonbill,Platalea
+Little egret,Egretta
+Grey heron,Ardea
+Bittern,Botaurus
+Honey buzzard,Pernis
+Goshawk,Accipiter
+Barn owl,Tyto
+Little owl,Athene
+Long-eared owl,Asio
+Short-eared owl,Asio
+Tawny owl,Strix
+Merlin,Falco
+Peregrine falcon,Falco
+Hobby,Falco
+Kestrel,Falco
+Sparrowhawk,Accipiter
+Buzzard,Buteo
+Hen harrier,Circus
+Marsh harrier,Circus
+Osprey,Pandion
+Red kite,Milvus
+Golden eagle,Aquila
+White-tailed eagle,Haliaeetus
+Quail,Coturnix
+Capercaillie,Tetrao
+Ptarmigan,Lagopus
+Pheasant,Phasianus
+Grey partridge,Perdix
+Red-legged partridge,Alectoris
+Black grouse,Lyrurus
+Red grouse,Lagopus
+Little stint,Calidris
+Stone curlew,Burhinus
+Black-winged stilt,Himantopus
+Jack snipe,Lymnocryptes
+Purple sandpiper,Calidris
+Corncrake,Crex
+Red-neck phalarope,Phalaropus
+Snipe,Gallinago
+Woodcock,Scolopax
+Whimbrel,Numenius
+Curlew,Numenius
+Bar-tailed godwit,Limosa
+Black-tailed godwit,Limosa
+Greenshank,Tringa
+Redshank,Tringa
+Ruff,Calidris
+Common sandpiper,Actitis
+Green Sandpiper,Tringa
+Dunlin,Calidris
+Sanderling,Calidris
+Knot,Calidris
+Turnstone,Arenaria
+Grey plover,Pluvialis
+Golden plover,Pluvialis
+Lapwing,Vanellus
+Ringed plover,Charadrius
+Little ringed plover,Charadrius
+Avocet,Recurvirostra
+Oystercatcher,Haematopus
+Coot,Fulica
+Moorhen,Gallinula
+Water rail,Rallus
+Collared dove,Streptopelia
+Turtle dove,Streptopelia
+Stock dove,Columba
+Woodpigeon,Columba
+Rock dove,Columba
+Wryneck,Jynx
+Waxwing,Bombycilla
+Kingfisher,Alcedo
+Cuckoo,Cuculus
+Lesser spotted woodpecker,Dryobates
+Green woodpecker,Picus
+Great spotted woodpecker,Dendrocopos
+Nightjar,Caprimulgus
+Swallow,Hirundo
+House martin,Delichon
+Sand martin,Riparia
+Swift,Apus
+Ring-necked parakeet,Psittacula
+Tree pipit,Anthus
+Shore lark,Eremophila
+Tree sparrow,Passer
+House sparrow,Passer
+Dunnock,Prunella
+Grey wagtail,Motacilla
+Yellow wagtail,Motacilla
+Pied wagtail,Motacilla
+Meadow pipit,Anthus
+Rock pipit,Anthus
+Woodlark,Lullula
+Skylark,Alauda
+Black redstart,Phoenicurus
+Ring ouzel,Turdus
+Treecreeper,Certhia
+Nuthatch,Sitta
+Wren,Troglodytes
+Dipper,Cinclus
+Starling,Sturnus
+Spotted flycatcher,Muscicapa
+Pied flycatcher,Ficedula
+Wheatear,Oenanthe
+Whinchat,Saxicola
+Stonechat,Saxicola
+Redstart,Phoenicurus
+Nightingale,Luscinia
+Robin,Erithacus
+Blackbird,Turdus
+Fieldfare,Turdus
+Redwing,Turdus
+Mistle thrush,Turdus
+Song thrush,Turdus
+Yellow-browed warbler,Phylloscopus
+Grasshopper warbler,Locustella
+Firecrest,Regulus
+Dartford warbler,Curruca
+Chiffchaff,Phylloscopus
+Willow warbler,Phylloscopus
+Wood warbler,Phylloscopus
+Cetti's warbler,Cettia
+Reed warbler,Acrocephalus
+Sedge warbler,Acrocephalus
+Lesser whitethroat,Curruca
+Whitethroat,Curruca
+Garden warbler,Sylvia
+Blackcap,Sylvia
+Goldcrest,Regulus
+Marsh tit,Poecile
+Willow tit,Poecile
+Bearded tit,Panurus
+Long-tailed tit,Aegithalos
+Coal tit,Periparus
+Blue tit,Cyanistes
+Great tit,Parus
+Great grey shrike,Lanius
+Raven,Corvus
+Hooded crow,Corvus
+Carrion crow,Corvus
+Rook,Corvus
+Jackdaw,Coloeus
+Chough,Pyrrhocorax
+Jay,Garrulus
+Magpie,Pica
+Common rosefinch,Carpodacus
+Twite,Linaria
+Brambling,Fringilla
+Hawfinch,Coccothraustes
+Snow bunting,Plectrophenax
+Corn bunting,Emberiza
+Yellowhammer,Emberiza
+Reed bunting,Emberiza
+Common crossbill,Loxia
+Bullfinch,Pyrrhula
+Siskin,Spinus
+Goldfinch,Carduelis
+Greenfinch,Chloris
+Lesser redpoll,Acanthis
+Linnet,Linaria
+Chaffinch,Fringilla
